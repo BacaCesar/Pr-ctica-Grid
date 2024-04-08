@@ -19,3 +19,18 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+.big-container-web{
+    display: grid;
+    width: 1110px;
+    height: 575px;
+    gap: 30px;
+    grid-template-columns: 540px 255px 255px;
+    grid-template-rows: 282px 266px;
+    background-color: #CFCFCF;
+}
+.box-purple{
+    width: 540px;
+    height: 282px;
+    background-color: #733FC8;
+    border-radius: 8px;
+}
